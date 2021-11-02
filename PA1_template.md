@@ -57,7 +57,7 @@ steps_sum <- aggregate(steps ~ date,my_data,sum)
 hist(steps_sum$steps,main ="Number of steps per day",xlab="Number of steps",ylab="Frequency, days")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-3-1.png)<!-- -->
 
 3a) Median number of steps taken each day:
 
@@ -91,7 +91,7 @@ plot(steps_by_interval$interval, steps_by_interval$steps, type='l',
      ylab="Average number of steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-6-1.png)<!-- -->
 
 5) The 5-minute interval that, on average, contains the maximum number of steps:
 
@@ -144,7 +144,7 @@ steps_sum_noNA <- aggregate(steps ~ date,my_data_noNA,sum)
 hist(steps_sum_noNA$steps,main ="Number of steps per day",xlab="Number of steps",ylab="Frequency, days")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-10-1.png)<!-- -->
 
 Median number of steps taken each day with NA is:
 
@@ -230,4 +230,4 @@ qplot(data = weekday_weekend_mean,
 ## Warning: Ignoring unknown parameters: type
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](instructions_fig/unnamed-chunk-16-1.png)<!-- -->
